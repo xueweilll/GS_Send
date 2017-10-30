@@ -1,0 +1,42 @@
+2013-11-04 09:42:15,696 [9][INFO ][M] - System start.
+2013-11-04 09:42:25,825 [9][INFO ][M] - System Quit.
+2013-11-04 10:08:34,557 [10][INFO ][M] - System start.
+2013-11-04 10:08:37,560 [10][INFO ][M] - System Quit.
+2013-11-04 10:33:22,210 [8][INFO ][M] - System start.
+2013-11-04 10:33:26,246 [8][INFO ][M] - System Quit.
+2013-11-04 13:50:05,415 [9][INFO ][M] - System start.
+2013-11-04 13:50:09,112 [9][INFO ][M] - 服务 [订单送货确认送信] －－－－启动
+2013-11-04 13:50:13,480 [9][INFO ][M] - 服务 [订单收货确认送信] －－－－启动
+2013-11-04 13:50:29,143 [12][INFO ][OrderReceiptTimerManage] - [订单收货确认]－－－－－开始。
+2013-11-04 13:50:29,361 [12][INFO ][OrderReceiptTimerManage] - [订单收货确认]没有需要送信的数据。
+2013-11-04 13:50:31,592 [12][ERROR][OrderReceiptTimerManage] - [订单收货确认]送信连接失败。
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:55730
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 CZZD.GSZX.S.UI.czzd.gszx.web.receive._Receive.GetSystemTime() 位置 D:\果蔬在线\GS_Send\UI\Web References\czzd.gszx.web.receive\Reference.cs:行号 93
+   在 CZZD.GSZX.S.UI.OrderReceiptTimerManage.SendnOrderCompleted() 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderReceiptTimerManage.cs:行号 135
+2013-11-04 13:50:31,607 [12][INFO ][OrderReceiptTimerManage] - [订单收货确认]－－－－－结束。
+2013-11-04 13:50:52,137 [16][INFO ][OrderReceiptTimerManage] - [订单收货确认]－－－－－开始。
+2013-11-04 13:50:52,137 [16][INFO ][OrderReceiptTimerManage] - [订单收货确认]没有需要送信的数据。
+2013-11-04 13:50:54,196 [16][ERROR][OrderReceiptTimerManage] - [订单收货确认]送信连接失败。
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:55730
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 CZZD.GSZX.S.UI.czzd.gszx.web.receive._Receive.GetSystemTime() 位置 D:\果蔬在线\GS_Send\UI\Web References\czzd.gszx.web.receive\Reference.cs:行号 93
+   在 CZZD.GSZX.S.UI.OrderReceiptTimerManage.SendnOrderCompleted() 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderReceiptTimerManage.cs:行号 135
+2013-11-04 13:50:54,196 [16][INFO ][OrderReceiptTimerManage] - [订单收货确认]－－－－－结束。
+2013-11-04 13:51:07,285 [9][INFO ][M] - System Quit.
+2013-11-04 14:11:02,622 [9][INFO ][M] - System start.
+2013-11-04 14:11:12,741 [9][INFO ][M] - System Quit.
+2013-11-04 15:54:06,348 [9][INFO ][M] - System start.
+2013-11-04 17:23:01,025 [9][INFO ][M] - System start.
+2013-11-04 17:23:07,882 [9][INFO ][M] - 服务 [订单拣货确认送信] －－－－启动
+2013-11-04 17:23:23,055 [9][INFO ][M] - System Quit.

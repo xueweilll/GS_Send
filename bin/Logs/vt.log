@@ -1,0 +1,51 @@
+2013-10-15 09:35:54,798 [9][INFO ][CZZD.GSZX.S.UI.FrmSend] - Integrated System start.
+2013-10-15 09:35:59,961 [9][INFO ][CZZD.GSZX.S.UI.FrmSend] - 服务 [订单实际出库数据送信] 运行中....
+2013-10-15 09:38:41,281 [9][INFO ][CZZD.GSZX.S.UI.FrmSend] - 服务 [订单客户收货确认状态送信] 运行中....
+2013-10-15 09:38:49,549 [9][INFO ][CZZD.GSZX.S.UI.FrmSend] - 服务 [订单客户收货确认状态送信] 停止.
+2013-10-15 09:39:29,316 [9][INFO ][CZZD.GSZX.S.UI.FrmSend] - 服务 [订单客户收货确认状态送信] 运行中....
+2013-10-15 09:40:24,522 [9][INFO ][CZZD.GSZX.S.UI.FrmSend] - Integrated System Quit.
+2013-10-15 09:51:17,046 [9][INFO ][CZZD.GSZX.S.UI.FrmSend] - Integrated System start.
+2013-10-15 09:55:24,416 [9][INFO ][FrmSend] - Integrated System start.
+2013-10-15 09:55:41,826 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 运行中....
+2013-10-15 09:55:42,341 [6][ERROR][CZZD.GSZX.S.UI.OrderInfoTimerManage] - 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.GSZX.S.Bll.BSendOrder.GetSendOrderData(String strWhere) 位置 D:\果蔬在线\GS_Send\Bll\BSendOrder.cs:行号 25
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.SendOrderShipment() 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 116
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.Execute(Object info) 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 82
+2013-10-15 09:56:39,608 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 停止.
+2013-10-15 09:57:51,794 [9][INFO ][FrmSend] - Integrated System start.
+2013-10-15 09:58:15,350 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 运行中....
+2013-10-15 09:58:15,397 [6][ERROR][OrderInfoTimerManage] - 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.GSZX.S.Bll.BSendOrder.GetSendOrderData(String strWhere) 位置 D:\果蔬在线\GS_Send\Bll\BSendOrder.cs:行号 25
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.SendOrderShipment() 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 116
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.Execute(Object info) 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 82
+2013-10-15 10:02:07,226 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 停止.
+2013-10-15 10:02:09,161 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 运行中....
+2013-10-15 10:02:09,161 [14][ERROR][OrderInfoTimerManage] - 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.GSZX.S.Bll.BSendOrder.GetSendOrderData(String strWhere) 位置 D:\果蔬在线\GS_Send\Bll\BSendOrder.cs:行号 25
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.SendOrderShipment() 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 116
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.Execute(Object info) 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 82
+2013-10-15 10:02:18,911 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 停止.
+2013-10-15 10:03:17,395 [15][ERROR][OrderInfoTimerManage] - 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.GSZX.S.Bll.BSendOrder.GetSendOrderData(String strWhere) 位置 D:\果蔬在线\GS_Send\Bll\BSendOrder.cs:行号 25
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.SendOrderShipment() 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 116
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.Execute(Object info) 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 82
+2013-10-15 10:03:17,395 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 运行中....
+2013-10-15 10:04:45,801 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 停止.
+2013-10-15 10:05:24,879 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 运行中....
+2013-10-15 10:06:02,522 [14][ERROR][OrderInfoTimerManage] - 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.GSZX.S.Bll.BSendOrder.GetSendOrderData(String strWhere) 位置 D:\果蔬在线\GS_Send\Bll\BSendOrder.cs:行号 25
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.SendOrderShipment() 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 116
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.Execute(Object info) 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 82
+2013-10-15 10:06:25,734 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 停止.
+2013-10-15 10:06:35,469 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 运行中....
+2013-10-15 10:07:22,597 [14][ERROR][OrderInfoTimerManage] - 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CZZD.GSZX.S.Bll.BSendOrder.GetSendOrderData(String strWhere) 位置 D:\果蔬在线\GS_Send\Bll\BSendOrder.cs:行号 25
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.SendOrderShipment() 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 116
+   在 CZZD.GSZX.S.UI.OrderInfoTimerManage.Execute(Object info) 位置 D:\果蔬在线\GS_Send\UI\Timer\OrderInfoTimerManage.cs:行号 82
+2013-10-15 10:07:24,843 [9][INFO ][FrmSend] - 服务 [订单实际出库数据送信] 停止.

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CsvSetting>
+  <order_info>20</order_info>
+  <order_delivery>20</order_delivery>
+  <order_receipt>30</order_receipt>
+</CsvSetting>
